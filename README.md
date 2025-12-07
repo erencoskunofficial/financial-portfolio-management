@@ -101,16 +101,18 @@ odul = portfoy_getirisi - (risk_katsayisi x volatilite) - islem_maliyeti
 
 ## Sonuclar
 
-### Test Donemi Performansi (2024)
+### Test Donemi Performansi 
 
 | Metrik | DRL Stratejisi | Pasif Strateji |
 |--------|----------------|----------------|
 | Baslangic | 300 TL | 300 TL |
-| Son Deger | ~1,467 TL | ~892 TL |
-| Toplam Getiri | ~%389 | ~%197 |
-| Kar | +1,167 TL | +592 TL |
+| Son Deger | 1,177 TL | 356 TL |
+| Toplam Getiri | %292.36 | %18.64 |
+| Kar | +877 TL | +56 TL |
+| Sharpe Orani | 0.335 | - |
+| Maksimum Dusus | %-7.78 | - |
 
-DRL stratejisi, pasif stratejiden yaklasik **575 TL daha fazla** kar elde etmistir.
+DRL stratejisi, pasif stratejiden **821 TL daha fazla** kar elde etmistir.
 
 ---
 
