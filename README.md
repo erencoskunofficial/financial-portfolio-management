@@ -134,11 +134,6 @@ DRL stratejisinin pasif stratejiye (%33-33-33 esit dagilim) gore performansini k
 
 Modelin her ay hangi hisseye ne kadar agirlik verdigini gosterir. Model, piyasa kosullarina gore dinamik olarak agirlik degistirir.
 
-### 4. Odul Egrisi
-![Ödül Eğrisi](plots/odul_egrisi.png)
-
-Test sirasinda modelin aldigi odullerin zamanla nasil degistigini gosterir. Yumusatilmis egri, genel trendi gosterir.
-
 ---
 
 ## Teknik Detaylar
