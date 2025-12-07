@@ -119,22 +119,23 @@ DRL stratejisi, pasif stratejiden **821 TL daha fazla** kar elde etmistir.
 ## Grafikler
 
 ### 1. Portfoy Degeri Grafigi
-`plots/portfoy_degeri.png`
+
+![Portföy Değeri](plots/portfoy_degeri.png)
 
 Portfoy degerinin test donemi boyunca nasil degistigini gosterir.
 
 ### 2. DRL vs Pasif Strateji Karsilastirmasi
-`plots/karsilastirma.png`
+![Karşılaştırma](plots/karsilastirma.png)
 
 DRL stratejisinin pasif stratejiye (%33-33-33 esit dagilim) gore performansini karsilastirir. Surekli cizgi DRL, kesikli cizgi pasif stratejiyi gosterir.
 
 ### 3. Aylik Portfoy Agirliklari
-`plots/aylik_agirliklar.png`
+![Aylık Ağırlıklar](plots/aylik_agirliklar.png)
 
 Modelin her ay hangi hisseye ne kadar agirlik verdigini gosterir. Model, piyasa kosullarina gore dinamik olarak agirlik degistirir.
 
 ### 4. Odul Egrisi
-`plots/odul_egrisi.png`
+![Ödül Eğrisi](plots/odul_egrisi.png)
 
 Test sirasinda modelin aldigi odullerin zamanla nasil degistigini gosterir. Yumusatilmis egri, genel trendi gosterir.
 
