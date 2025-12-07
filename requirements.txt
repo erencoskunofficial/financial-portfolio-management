@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+yfinance
+gym
+stable-baselines3
+shimmy
+torch
+seaborn
