@@ -58,8 +58,8 @@ Bir yatirim portfoyunde hangi hisseye ne kadar yatirim yapilacagini otomatik ola
 ## Nasil Calisir?
 
 1. **Veri Toplama**: Yahoo Finance'den belirlenen hisse senetlerinin gecmis fiyat verileri indirilir
-2. **Egitim**: PPO modeli, 2020-2023 verileriyle egitilir (50.000 adim)
-3. **Test**: Model hic gormedigi 2024 verileriyle test edilir
+2. **Egitim**: PPO modeli, 2020-2025 verileriyle egitilir (50.000 adim)
+3. **Test**: Model hic gormedigi 2025 verileriyle test edilir
 4. **Karsilastirma**: DRL stratejisi, pasif strateji (%33-33-33 esit dagilim) ile karsilastirilir
 
 ---
@@ -70,8 +70,8 @@ Bir yatirim portfoyunde hangi hisseye ne kadar yatirim yapilacagini otomatik ola
 |---------|-------|
 | Kaynak | Yahoo Finance |
 | Hisseler | ASELS.IS, SISE.IS, TUPRS.IS |
-| Egitim Donemi | 2020-01-01 - 2023-12-31 (~1000 gun) |
-| Test Donemi | 2024-01-01 - 2024-12-31 (~250 gun) |
+| Egitim Donemi | 2020-01-01 - 2024-12-31 |
+| Test Donemi | 2025-01-01 - 2025-12-01  |
 | Veri Tipi | Gunluk kapanis fiyatlari (Adjusted Close) |
 
 
@@ -203,14 +203,6 @@ Bu komut sirasiyla:
 ```python
 tickers = ["ASELS.IS", "SISE.IS", "TUPRS.IS"]  # hisse senetleri
 INITIAL_CAPITAL = 300  # baslangic sermayesi (TL)
-```
-
-`data.py` dosyasinda tarih araligini degistirebilirsiniz:
-
-```python
-start="2020-01-01"      # veri başlangıç tarihi
-end="2025-01-01"        # veri bitiş tarihi  
-train_end="2024-01-01"  # egitim/test ayrımı
 ```
 
 ---
