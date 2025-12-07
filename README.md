@@ -20,7 +20,7 @@ Bir yatirim portfoyunde hangi hisseye ne kadar yatirim yapilacagini otomatik ola
 
 ### PPO'nun Avantajlari
 
-1. **Surekli Aksiyon Destegi**: Portfoy agirliklari %0-100 arasi surekli degerler. Q-Learning sadece ayrik aksiyonlari destekler.
+1. **Surekli Aksiyon Destegi**: Portfoy agirliklari %0-100 arasi surekli degerlerdir. Ayrik aksiyonlar bu problem için uygun olmayacaktır.
 
 2. **Stabilite**: PPO, politika guncellemelerini sinirlandirarak egitim sirasinda ani performans dususlerini onler.
 
