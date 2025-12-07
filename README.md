@@ -4,7 +4,7 @@ Bu proje, **Proximal Policy Optimization (PPO)** algoritmasi kullanarak Borsa Is
 
 ## Proje Amaci
 
-Bir yatirim portfoyunde hangi hisseye ne kadar yatirim yapilacagini otomatik olarak belirlemek. Sistem gecmis fiyat verilerini analiz ederek kar maksimizasyonu ve risk minimizasyonu dengesi kurar.
+Bir yatirim portfoyunde hangi hisseye ne kadar yatirim yapilacagini otomatik olarak belirlemek. Sistem gecmis fiyat verilerini analiz ederek karı maksimize ederken ve riski minimize ederek dengeyi sağlar.
 
 ---
 
