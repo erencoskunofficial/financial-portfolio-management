@@ -170,11 +170,11 @@ action = [w1, w2, w3]  // her biri 0-1 arasi
 ## Kurulum
 
 ```bash
-# repoyu klonla
+
 git clone <repo-url>
 cd finansal-portfoy-yonetimi
 
-# gereksinimleri yukle
+
 pip install -r requirements.txt
 ```
 
@@ -187,9 +187,9 @@ python main.py
 Bu komut sirasiyla:
 1. Verileri indirir (yoksa)
 2. Modeli egitir (yoksa)
-3. Test yapar
+3. Modeli test verisi üzerinde çalıştırır 
 4. Grafikleri olusturur
-5. PDF rapor uretir
+5. Metriklerin bulunduğu PDF raporunu üretir
 
 ---
 
