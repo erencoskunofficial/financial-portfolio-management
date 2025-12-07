@@ -4,7 +4,7 @@ import pandas as pd
 
 DATA_DIR = "data"
 
-def load_data(tickers, start="2020-01-01", end="2025-01-01", train_end="2024-01-01"):
+def load_data(tickers, start="2020-01-01", end="2025-12-01", train_end="2025-01-01"):
  
 
     raw = yf.download(tickers, start=start, end=end)
