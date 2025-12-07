@@ -205,9 +205,9 @@ INITIAL_CAPITAL = 300  # baslangic sermayesi (TL)
 `data.py` dosyasinda tarih araligini degistirebilirsiniz:
 
 ```python
-start="2020-01-01"      # veri baslangic tarihi
-end="2025-01-01"        # veri bitis tarihi  
-train_end="2024-01-01"  # egitim/test ayrim tarihi
+start="2020-01-01"      # veri başlangıç tarihi
+end="2025-01-01"        # veri bitiş tarihi  
+train_end="2024-01-01"  # egitim/test ayrımı
 ```
 
 ---
