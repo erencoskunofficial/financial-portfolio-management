@@ -106,13 +106,13 @@ odul = portfoy_getirisi - (risk_katsayisi x volatilite) - islem_maliyeti
 | Metrik | DRL Stratejisi | Pasif Strateji |
 |--------|----------------|----------------|
 | Baslangic | 300 TL | 300 TL |
-| Son Deger | 1,177 TL | 356 TL |
-| Toplam Getiri | %292.36 | %18.64 |
-| Kar | +877 TL | +56 TL |
-| Sharpe Orani | 0.335 | - |
-| Maksimum Dusus | %-7.78 | - |
+| Son Deger | 3,176 TL | 461 TL |
+| Toplam Getiri | %958.64 | %53.59 |
+| Kar | +877 TL | +161 TL |
+| Sharpe Orani | 0.5016 | - |
+| Maksimum Dusus | %-7.99| - |
 
-DRL stratejisi, pasif stratejiden **821 TL daha fazla** kar elde etmistir.
+DRL stratejisi, pasif stratejiden **2715 TL daha fazla** kar elde etmistir.
 
 ---
 
